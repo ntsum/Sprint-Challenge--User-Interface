@@ -82,7 +82,7 @@ nav {
 
 
 nav a {
-    padding-bottom: 35px;
+    padding-bottom: 15px;
     text-decoration: none;
     color: black;
     display: flex;
@@ -195,6 +195,7 @@ header{
     
 }
 
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
@@ -210,7 +211,6 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
     font-size: 14px;
 
 }
