@@ -71,18 +71,57 @@ p {
     margin: 0 auto;
 }
 
+
+nav {
+    padding-top: 15px;
+    display: flex;
+	align-items:baseline;
+	
+    
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+nav a:last-child {
+    margin-right: 50px;
+}
+
+.logo {
+    width: 250px; 
+}
+
+header{ 
+    width: 100%;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin: 10px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    
 }
 
 .middle-content {
@@ -112,6 +151,38 @@ p {
     justify-content: center;
 }
 
+
+.middle-content .boxes .box.teal {
+    background: teal;
+}
+.middle-content .boxes .box.gold {
+    background: gold;
+}
+.middle-content .boxes .box.cadetblue {
+    background: cadetblue;
+}
+.middle-content .boxes .box.coral {
+    background: coral;
+}
+.middle-content .boxes .box.crimson {
+    background: crimson;
+}
+.middle-content .boxes .box.forestgreen {
+    background: forestgreen;
+}
+.middle-content .boxes .box.darkorchid {
+    background: darkorchid;
+}
+.middle-content .boxes .box.hotpink {
+    background: hotpink;
+}
+.middle-content .boxes .box.indigo {
+    background: indigo;
+}
+.middle-content .boxes .box.dodgerblue {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -119,15 +190,20 @@ p {
 }
 
 .bottom-content .text-container {
+    margin-top: 0;
+    border: 0px solid black;
     padding-right: 4%;
+    
 }
+
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
 footer {
-    width: 100%;
+    margin-top: 30px;
+    padding: 0 10px;
     background: black;
 }
 
@@ -136,11 +212,47 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding-bottom: 0px;
     font-size: 14px;
+
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
+.mid-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    
+
+}
+
+.mid-content {
+	width: 390px;
+    padding: 1%;
+    
+}
+
+.mid-content button {
+	border-radius: 10px;
+}
+
+button {
+    width: 115px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0;
+    border: 2px solid black;
+    font-weight: 600;
+    background-color: white;
+}
+
+hr{
+	border-top: 1px dashed;
+}
+
