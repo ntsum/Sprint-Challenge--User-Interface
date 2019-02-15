@@ -71,10 +71,12 @@ p {
     margin: 0 auto;
 }
 
+
 nav {
     padding-top: 15px;
     display: flex;
-    flex-direction: row;
+	align-items:baseline;
+	
     
 }
 
@@ -84,8 +86,7 @@ nav a {
     text-decoration: none;
     color: black;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-around;
+    justify-content: space-around;
     width: 100%;
     align-items: flex-end;
 }
@@ -252,3 +253,4 @@ button {
 hr{
 	border-top: 1px dashed;
 }
+
