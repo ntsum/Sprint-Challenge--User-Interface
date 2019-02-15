@@ -97,6 +97,9 @@ nav a:last-child {
     width: 250px; 
 }
 
+header{ 
+    width: 100%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -106,9 +109,10 @@ nav a:last-child {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    text-align: center;
 }
 
 .middle-content {
@@ -128,8 +132,8 @@ nav a:last-child {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+    width: 25%;
+    height: 200px;
     background: black;
     margin: 20px 2.5%;
     color: white;
