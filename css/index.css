@@ -88,6 +88,7 @@ nav a {
     justify-content: space-around;
     width: 100%;
     align-items: flex-end;
+    margin-bottom: 20px;
 }
 
 nav a:hover {
@@ -105,12 +106,15 @@ nav a:last-child {
 
 header{ 
     width: 100%;
+    
 }
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin: 10px;
 }
 
 .top-content .text-container {
@@ -230,6 +234,7 @@ footer nav a {
 .mid-content {
 	width: 390px;
     padding: 1%;
+    
 }
 
 .mid-content button {
