@@ -212,7 +212,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     font-size: 14px;
 
 }
